@@ -14,7 +14,5 @@ public static void main(String[] args) {
         animalSet.add(animal2);
 		System.out.println(animalSet);
 
-	
-	
 }
 }

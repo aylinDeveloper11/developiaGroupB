@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Animal {
 	   String name;
-	    String food;  
+	   String food;  
 	    
 		public Animal(String name, String food) {
 			this.name = name;
