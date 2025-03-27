@@ -9,8 +9,31 @@ public class PhoneBook {
         phoneBook.put("Aylin", "123-456-7890");
         phoneBook.put("Nara", "234-567-8901");
         
-        phoneBook.forEach((name, phone) -> {
-            System.out.println(name + ": " + phone);
-        });
+    for (Map.Entry<String, String> entry : phoneBook.entrySet()) {
+		String key = entry.getKey();
+		String val = entry.getValue();
+	
+		System.out.println(key+" "+ val);
+	}     
+   
+    
+    
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//"ключ-значение".
