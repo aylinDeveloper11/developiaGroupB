@@ -14,10 +14,6 @@ public static void main(String[] args) {
 	System.out.println(divideCalculator.calculator(3857, 235));
 	System.out.println(multiplayCalculator.calculator(30, 6));
 	System.out.println(substractCalculator.calculator(2, 2));
-	
-	
-	
-	
 	    }
    
   }

@@ -13,6 +13,6 @@ public static void main(String[] args) {
      strings.add("programming");
      
      Consumer<String> printUpperCaseConsumer = str -> System.out.println(str.toUpperCase());
-     
+     printUpperCaseConsumer.accept("java");
 }
 }
